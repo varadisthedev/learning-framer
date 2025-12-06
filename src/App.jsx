@@ -1,6 +1,7 @@
 import "./App.css";
 import { motion } from "framer-motion";
 import { Tappable } from "./components/Tappable";
+import { Card } from "./components/Card";
 // ease: easeIn easeOut anticipate
 
 function App() {
@@ -32,6 +33,10 @@ function App() {
       </motion.div>
 
       <Tappable />
+      <Card
+        title="HELLO"
+        children="hello , this is a sample text you can add, as much text as you need here"
+      />
     </div>
   );
 }
