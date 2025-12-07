@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Tappable } from "./components/Tappable";
 import { Card } from "./components/Card";
 import { PulseCircle } from "./elements/PulseCircle";
+import { FramerVarients } from "./components/FramerVarients";
 // ease: easeIn easeOut anticipate
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       />
 
       <PulseCircle />
+      <FramerVarients />
     </div>
   );
 }
