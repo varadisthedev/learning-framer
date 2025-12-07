@@ -2,6 +2,7 @@ import "./App.css";
 import { motion } from "framer-motion";
 import { Tappable } from "./components/Tappable";
 import { Card } from "./components/Card";
+import { PulseCircle } from "./elements/PulseCircle";
 // ease: easeIn easeOut anticipate
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
         title="HELLO"
         children="hello , this is a sample text you can add, as much text as you need here"
       />
+
+      <PulseCircle />
     </div>
   );
 }
